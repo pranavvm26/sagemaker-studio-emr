@@ -350,7 +350,7 @@ Resources:
           - dummy
           - parameter
           Path:
-            !Sub ['s3://${S3Bucket}/artifacts/emr/installpylibs-py39-v1.sh', S3Bucket: !ImportValue SageMakerEMRDemoCloudformationS3BucketName]
+            !Sub ['s3://${S3Bucket}/artifacts/emr/installpylibs-py39.sh', S3Bucket: !ImportValue SageMakerEMRDemoCloudformationS3BucketName]
       AutoScalingRole: EMR_AutoScaling_DefaultRole
       Configurations:
       - Classification: livy-conf
