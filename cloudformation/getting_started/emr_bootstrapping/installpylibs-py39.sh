@@ -33,9 +33,3 @@ sudo /usr/bin/python3 -m pip install -U pikepdf
 sudo /usr/bin/python3 -m pip install -U pycryptodome
 sudo /usr/bin/python3 -m pip install -U langchain==0.0.310
 sudo /usr/bin/python3 -m pip install -U opensearch-py
-sudo /usr/bin/python3 -m pip install -U plotly
-sudo /usr/bin/python3 -m pip install -U jupyter-dash 
-
-sudo /usr/bin/python3 -c "import plotly.io as pio; pio.renderers.default = 'notebook_connected';"
-
-echo "Done"
